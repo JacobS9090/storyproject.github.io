@@ -1,0 +1,101 @@
+
+.cool{
+    color:goldenrod; 
+    font-size:90px;
+    font-family:courier;
+}
+.niner{
+    color:green;
+    font-family:courier;
+   
+}
+th{
+    color:green;
+    font-size:20px;
+    font-style:italic;
+}
+img{
+    width:90px;
+    height:90px;
+}
+.tots{
+    width:130px;
+    height:130px;
+}
+img.tots{
+    animation:invertFilter 5s forwards;    
+}
+
+@keyframes invertFilter{
+from {
+    filter:invert(0%);
+    }
+to {
+    filter:invert(100%); 
+    }
+}    
+img.tracer{
+    animation:invertFilter 18s forwards;    
+}
+@keyframes invertFilter{
+from {
+    filter:invert(5%);
+    }
+to {
+    filter:invert(100%); 
+    }
+}    
+.tracer{
+    width:190px;
+    height:90px;
+    
+}
+.animates:hover{
+    width:120px;
+    height:120px;
+    transition:width 3s,height 3s;
+}
+
+.hard{
+    color:gold;
+    size:70px;
+    font-family:fantasy;
+}
+td{
+    color:green;
+    font-size:20px;
+    font-family:courier;
+}
+#narkotic-kal{
+    font-family:courier;
+    color:green;
+    font-style:italic;
+}
+.squadala{
+    color:green;
+    font-family:courier;
+    
+}
+
+.niner:hover{
+    filter:invert(55%);
+}
+body{
+    background-color:black;    
+}
+a{
+    color:green;
+    font-style:italic;
+}
+li{ 
+    font-size:21px;
+    font-weight:bold;
+}
+table{
+    border:bold;
+    border-color:blue;
+}
+p{
+    font-size:19px;    
+}
+
